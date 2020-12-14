@@ -1,7 +1,7 @@
 /* Global Variables */
-let baseURL = 'http://api.openweathermap.org/data/2.5/weather?zip=';   ///url of weather API of openweather.org
-let apiKey = '&appid=4d47a6d38d292cba7e90924055b0cf56';             /// key from subscribtion to API
-let clesiusConvert = '&units=metric';           /// additional part which added to Fetched URL to convert temp. to celisus unit
+const baseURL = 'http://api.openweathermap.org/data/2.5/weather?zip=';   ///url of weather API of openweather.org
+const apiKey = '&appid=4d47a6d38d292cba7e90924055b0cf56';             /// key from subscribtion to API
+const clesiusConvert = '&units=metric';           /// additional part which added to Fetched URL to convert temp. to celisus unit
 
 // Create a new date instance dynamically with JS
 let d = new Date();
